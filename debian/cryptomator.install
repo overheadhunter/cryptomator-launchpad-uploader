@@ -1,0 +1,4 @@
+antbuild/bundles/Cryptomator/* /opt/Cryptomator
+debian/Cryptomator.png /opt/Cryptomator
+debian/Cryptomator.desktop /opt/Cryptomator
+debian/cryptomator-vault-metadata.xml /opt/Cryptomator
