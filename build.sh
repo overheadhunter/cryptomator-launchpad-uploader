@@ -10,7 +10,7 @@ sed -i -e "s/##RFC2822_TIMESTAMP##/${RFC2822_TIMESTAMP}/g" debian/changelog
 sed -i -e "s/##CRYPTOMATOR_FULL_VERSION##/${CRYPTOMATOR_FULL_VERSION}/g" debian/files
 
 # build source package
-if [[ $CRYPTOMATOR_FULL_VERSION == *ppa1 ]]
+if [[ $CRYPTOMATOR_FULL_VERSION =~ .*ppa1$ ]]
 then
   debuild -S -sa -uc -us
 else

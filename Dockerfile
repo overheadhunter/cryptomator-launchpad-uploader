@@ -15,7 +15,7 @@ COPY build.sh /home/
 COPY debian /home/cryptomator_${CRYPTOMATOR_VERSION}/debian/
 
 # create debian source package
-CMD /bin/sh /home/build.sh
+CMD /bin/bash /home/build.sh
 
 # expose result directory
 VOLUME /home/dist
