@@ -1,7 +1,7 @@
 FROM totalvoidness/ppatools:latest
 
 ENV CRYPTOMATOR_VERSION 1.0.3c
-ENV CRYPTOMATOR_FULL_VERSION 1.0.3c-0~ppa1
+ENV CRYPTOMATOR_FULL_VERSION 1.0.3c-0~ppa2
 ENV GPG_PASSPHRASE toBeSpecifiedWhenRunningThisContainer
 
 # import gpg key

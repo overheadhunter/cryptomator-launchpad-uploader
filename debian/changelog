@@ -1,4 +1,4 @@
-cryptomator (##CRYPTOMATOR_FULL_VERSION##) wily; urgency=low
+cryptomator (##CRYPTOMATOR_FULL_VERSION##) vivid; urgency=low
 
   * New release, full changelog available on https://github.com/cryptomator/cryptomator/releases
 
